@@ -1,5 +1,5 @@
 # sudokuGame
-For better OO and modular design, we design SIX classes (in a package called sudoku) as shown in the above class diagram:
+For better modular design, we design SIX classes (in a package called sudoku) as shown in the above class diagram:
 
 1)SudokuConstants: To store the named constants such as GRID_SIZE - to be referred to as SudokuConstants.GRID_SIZE.
 
