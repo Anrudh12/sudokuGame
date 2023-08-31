@@ -1,4 +1,7 @@
 package sudoku;
+import java.awt.Color;
+import java.awt.Font;
+import javax.swing.JTextField;
 /**
  * Define the named constants used in many classes.
  */
