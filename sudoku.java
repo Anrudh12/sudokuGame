@@ -270,11 +270,7 @@ public class SudokuMain extends JFrame {
           * and re-paint the cell via sourceCell.paint().
           */
           //if (numberIn == sourceCell.number) {
-          //   sourceCell.status = CellStatus.CORRECT_GUESS;
-          //} else {
-          //   ......
-          //}
-          //sourceCell.paint();   // re-paint this cell based on its status
+         // re-paint this cell based on its status
 
          JOptionPane.showMessageDialog(null, "Congratulation!");/*
           * [TODO 6] (later)
