@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 public class Sudoku {
 
     static JFrame frame;
-    static Panal p;
+    static Panel p;
     private  static int[][] grid;
     private static int[][] temp;
     private static Random ran = new Random();
@@ -23,7 +23,7 @@ public class Sudoku {
         frame.setSize(650, 650);
         frame.setTitle("</Suduko Game / Anrudh Kumar>");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        p = new Panal();
+        p = new Panel();
         frame.setContentPane(p);
         frame.setVisible(true);
     }
